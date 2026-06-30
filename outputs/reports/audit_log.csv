@@ -1,0 +1,2 @@
+timestamp,model,accuracy,roc_auc,explainability,fairness_spd,fairness_dir,gender_gap,state_gap,status
+2026-06-30 20:45:16.598874,Random Forest,96.3,95.27,SHAP + LIME,0.0051,0.9839,0.51,2.25,COMPLIANT

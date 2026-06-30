@@ -1,0 +1,22 @@
+COUNTERFACTUAL EXPLANATION REPORT
+
+ORIGINAL APPLICANT
+---------------------------------
+Prediction          : REJECTED
+CIBIL Score         : 305
+EMI Ratio           : 0.20
+Existing Loans      : 5
+
+COUNTERFACTUAL
+---------------------------------
+Prediction          : APPROVED
+CIBIL Score         : 700
+EMI Ratio           : 0.20
+Existing Loans      : 2
+Previous Default    : 0
+
+RECOMMENDED ACTIONS
+---------------------------------
+✓ Improve credit score
+✓ Reduce active loans
+✓ Maintain clean repayment history

@@ -1,0 +1,38 @@
+PROJECT:
+Explainable Digital Lending Framework (XDLF)
+
+MODELS:
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+BEST MODEL:
+Random Forest
+
+PERFORMANCE:
+Accuracy: 96.30%
+ROC-AUC: 95.27%
+
+EXPLAINABILITY:
+- SHAP
+- LIME
+- Counterfactual Explanations
+
+FAIRNESS:
+- Statistical Parity Difference
+- Disparate Impact Ratio
+- Gender Analysis
+- Employment Analysis
+- Education Analysis
+- State Analysis
+
+REGULATORY:
+- RBI Compliance Engine
+- Audit Engine
+- Governance Dashboard
+
+COMPLIANCE SCORE:
+96.25%
+
+AUDIT STATUS:
+COMPLIANT

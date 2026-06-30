@@ -1,4 +1,14 @@
+"""
+Regulatory Compliance Report
+Explainable Digital Lending Framework (XDLF)
+"""
 
+import os
+
+
+def generate_report():
+
+    report = f"""
 ====================================================
 EXPLAINABLE DIGITAL LENDING FRAMEWORK (XDLF)
 REGULATORY COMPLIANCE REPORT
@@ -40,3 +50,28 @@ AI-GOVERNANCE READY
 EXPLAINABLE AI VERIFIED
 
 ====================================================
+"""
+
+    os.makedirs(
+        "outputs/reports",
+        exist_ok=True
+    )
+
+    with open(
+        "outputs/reports/regulatory_report.txt",
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        file.write(report)
+
+    print(report)
+
+    print(
+        "\nRegulatory report saved."
+    )
+
+
+if __name__ == "__main__":
+
+    generate_report()
