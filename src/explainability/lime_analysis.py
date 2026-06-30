@@ -118,7 +118,23 @@ if __name__ == "__main__":
         )
 
     explanation.save_to_file(
-        "outputs/reports/lime_explanation.html"
+    "outputs/reports/lime_explanation.html"
+    )
+
+    import matplotlib.pyplot as plt
+
+    fig = explanation.as_pyplot_figure()
+
+    fig.savefig(
+        "outputs/figures/Figure6_LIME.png",
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+    plt.close()
+
+    print(
+        "\nLIME figure saved."
     )
 
     print(
